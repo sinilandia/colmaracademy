@@ -32,6 +32,16 @@ a {
 h2 {
 	font-size: 2rem;
 	font-weight: bold;
+	margin: 2rem auto;	
+}
+
+h3 {
+
+}
+
+h6 {
+	font-size: 0.8rem;
+	margin: 2rem 0;
 }
 
 /**********
@@ -77,6 +87,10 @@ nav a {
 	color: #4a4a4a;
 }
 
+header #colmar {
+	font-weight: bold;
+}
+
 
 /**********
 Banner
@@ -109,7 +123,6 @@ Banner
 }
 
 .banner #text {
-	width: 40%;
 	margin: auto 1.5rem;
 	justify-content: center;
 	align-items: center;
@@ -118,15 +131,21 @@ Banner
 .banner .btn {
 	background-color: #4a4a4a;
 	color: #fff;
-	padding: 0.5rem 4rem;
+	padding: 1.25rem 4rem;
 	justify-content: center;
+	margin: 1rem 0;
 }
 
-/*
+
 .banner h3 {
-	text-align: left;
+	margin: 2rem auto;
+	font-weight: bold;
+	font-size: 1.25rem;
 }
-*/
+
+h3 a {
+	margin-top: 2rem;
+}
 
 
 /**********
@@ -134,7 +153,6 @@ About
 **********/
 
 .about {
-	width: 100%;
 	justify-content: space-between;
 	display: flex;
 }
@@ -144,12 +162,6 @@ About
 	align-items: center;
 	width: 60%;
 }
-
-/*reminder ^ above in banner 
-.sixty img {
-	max-width: 100%;
-}
-*/
 
 .about .sixty {
 	padding: 2rem 1.5rem;
@@ -170,22 +182,26 @@ About
 
 }
 
+.bulletin .sidetext {
+	max-width: 65%;
+
+}
+
+.bulletin-img {
+	max-width: 35%;
+}
 
 .bulletin img {
-	max-width: 35%;
-	height: auto;
-	margin: 1rem;
+	max-width: 100%;
 }
 
 .bulletin a {
 	color: #5691e5;
 }
 
-.bulletin .sidetext {
-	max-width: 65%;
 
 
-}
+
 
 
 
@@ -222,6 +238,7 @@ Start learning
 .item p {
 	margin: 0.5rem 0rem;
 }
+
 
 
 
