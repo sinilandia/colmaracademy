@@ -177,18 +177,21 @@ About
 
 
 .about .bulletin {
-
+	max-width: 100%;
 
 
 }
 
 .bulletin .sidetext {
 	max-width: 65%;
-
+	padding: 1rem 0rem;
+	display: flex;
+	flex-direction: column;
 }
 
 .bulletin-img {
 	max-width: 35%;
+	padding: 1rem;
 }
 
 .bulletin img {
@@ -200,8 +203,15 @@ About
 }
 
 
+.sidetext h3{
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: bold;
+}
 
-
+.sidetext p {
+	margin: 0.5rem 0;
+}
 
 
 
