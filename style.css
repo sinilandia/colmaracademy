@@ -159,13 +159,11 @@ About
 
 .about #img {
 	justify-content: center;
-	align-items: center;
 	width: 60%;
 }
 
 .about .sixty {
 	padding: 2rem 1.5rem;
-	
 }
 
 .about .forty {
@@ -173,17 +171,12 @@ About
 	border-left: 1px solid #eaebec;
 }
 
-
-
-
 .about .bulletin {
 	max-width: 100%;
-
-
 }
 
 .bulletin .sidetext {
-	max-width: 65%;
+	max-width: 55%; /*doesn't work with 65%*/
 	padding: 1rem 0rem;
 	display: flex;
 	flex-direction: column;
@@ -203,7 +196,7 @@ About
 }
 
 
-.sidetext h3{
+.sidetext h3 {
 	font-size: 1.5rem;
 	margin: 1.5rem 0;
 	font-weight: bold;
@@ -221,13 +214,30 @@ Start learning
 
 #courses {
 	background-color: #eaebec;
-	margin: 2rem, 4.5rem;
+	padding-bottom: 2rem; 
+}
+
+.row {
+	margin: 2rem 1rem;
+}
+
+.course {
+	max-width: 25%;
+	background-color: #fff;
+	margin: 0 1rem; 
+}
+
+.course-img {
+	max-width: 100%;
+}
+
+.course img {
+	max-width: 100%;
 }
 
 #courses h2 {
 	text-align: center;
-	margin: 0;
-	padding: 2rem;
+	padding-top: 2rem; /*ehka myohemmin vaihda margin topiksi ylhaalla h2*/
 }
 
 .items .flex-container {
@@ -235,21 +245,19 @@ Start learning
 }
 
 
-.item { 
-	justify-content: center;
-	flex-basis: ?
-	background-color: #fff;
-}
-
-.item .text {
+.course .text {
 	margin: 1rem 1rem 1.5rem 1rem;
 }
 
-.item p {
-	margin: 0.5rem 0rem;
+.course h3 {
+	font-weight: bold;
+	font-size: 1.5rem;
 }
 
-
+.course p {
+	margin: 0.5rem 0rem;
+	letter-spacing: 1px;
+}
 
 
 
@@ -257,15 +265,51 @@ Start learning
 Thesis
 **********/
 
+#thesis {
+
+}
 
 
+#thesis h2 {
+	text-align: center;
+}
+
+
+#thesis h3 {
+
+}
+
+.sixty video {
+	max-width: 100%;
+}
 
 
 /**********
 FOOTER
 **********/
 
+footer {
+	border-top: 1px solid #eaebec;
+	display: flex;
+	justify-content: space-between;
+}
 
+footer ul {
+	margin: 2rem 0;
+}
 
+footer ul li {
+	display: inline-block;
+	padding: 0 1rem;
 
+}
 
+a {
+	color: #4a4a4a;
+}
+
+#thesis h3 {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: bold;
+}

@@ -94,9 +94,9 @@
 	<div id="courses">
 		<h2>Start learning</h2>
 
-		<div class="flex-container items">
-			<div class="item">
-				<img src="./resources/course-software.jpg">
+		<div class="flex-container row">
+			<div class="course">
+				<div class="course-img"><img src="./resources/course-software.jpg"></div>
 				<div class="text">
 				<h3>Software engineering</h3>
 				<p>COURSES</p>
@@ -104,8 +104,8 @@
 				</div>
 			</div>
 			
-			<div class="item">
-				<img src="./resources/course-computer-art.jpg">
+			<div class="course">
+				<div class="course-img"><img src="./resources/course-computer-art.jpg"></div>
 				<div class="text">
 				<h3>Computer art</h3>
 				<p>COURSES</p>
@@ -113,26 +113,28 @@
 				</div>
 			</div>
 
-			<div class="item">
-				<img src="./resources/course-design.jpg">
+			<div class="course">
+				<div class="course-img"><img src="./resources/course-design.jpg"></div>
 				<div class="text">
 				<h3>Design</h3>
 				<p>COURSES</p>
 				<P>User Experience Design, User Research, Visual Design</p>
 				</div>
 			</div>
+		</div>
 
-			<div class="item">
-				<img src="./resources/course-data.jpg">
+		<div class="flex-container row">
+			<div class="course">
+				<div class="course-img"><img src="./resources/course-data.jpg"></div>
 				<div class="text">
 				<h3>Data</h3>
 				<p>COURSES</p>
 				<P>Data Science, Big Data, SQL, Data Visualization</p>
-				<div class="text">
+				</div>
 			</div>
 
-			<div class="item">
-				<img src="./resources/course-business.jpg">
+			<div class="course">
+				<div class="course-img"><img src="./resources/course-business.jpg"></div>
 				<div class="text">
 				<h3>Business</h3>
 				<p>COURSES</p>
@@ -140,8 +142,8 @@
 				</div>
 			</div>
 
-			<div class="item">
-				<img src="./resources/course-marketing.jpg">
+			<div class="course">
+				<div class="course-img"><img src="./resources/course-marketing.jpg"></div>
 				<div class="text">
 				<h3>Marketing</h3>
 				<p>COURSES</p>
@@ -158,11 +160,12 @@
 
 
 <!-- Thesis -->
+	
 	<div id="thesis">
 		<h2>Thesis exhibit</h2>
 
-		<div class="flex-container">
-			<div class="content">
+		<div class="about">
+			<div class="sixty" id="img">
 				<video width="320" height="240" controls>
   				<source src="./resources/thesis.mp4" type="video/mp4">
 				Your browser does not support the video tag.
@@ -172,33 +175,32 @@
 			</div>
 
 
-			<div class="flex-container">
-				<div class="bulletin">
-					<img src="./resources/thesis-fisma.jpg">
+			<div class="forty" id="bulletins">
+				<div class="flex-container bulletin">
+					<div class="bulletin-img"><img src="./resources/thesis-fisma.jpg"></div>
+					<div class="sidetext">
 					<h3>Fisma: Design and Prototype</h3>
 					<p>Designer showcase of new prototype product</p>
+					</div>
 				</div>
-				<div class="bulletin">
-					<img src="./resources/thesis-now-and-then.jpg">
+				<div class="flex-container bulletin">
+					<div class="bulletin-img"><img src="./resources/thesis-now-and-then.jpg"></div>
+					<div class="sidetext">
 					<h3>Now and then</h3>
 					<p>Research study about New York</p>
+					</div>
 				</div>
 			</div>
 		</div>		
 	</div>
-
-
-
-
-
 </main> 
 
 <!-- Footer -->
 <footer>
-	<h5>&copy; 2016 Colmar Academy. All rights reserved</h5>
+	<h6>&copy; 2016 Colmar Academy. All rights reserved</h6>
 	<ul> <!-- Span? -->
-		<li>Terms</li>
-		<li>Privacy</li>
+		<li><a href="#">Terms</a></li>
+		<li><a href="#">Privacy</a></li>
 	</ul>
 </footer>
 
