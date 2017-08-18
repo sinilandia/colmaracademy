@@ -1,0 +1,244 @@
+/**************** 
+UNIVERSAL STYLES 
+****************/
+/*** light grey #f3f5f5 ***/
+/*** dark grey #eaebec ***/
+/***
+button color #4a4a4a (same as font title color?)
+button font color #fff
+academy font color #9b9b9b
+***/
+
+html {
+	font-family: Helvetica;
+	font-size: 16px;
+	color: #4a4a4a;
+}
+
+body {
+	background-color: #f3f5f5;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/**********
+Main
+***********/
+main {
+	padding-top: 4rem;
+	width: 100%;
+	margin: auto;
+}
+
+/**********
+Header
+***********/
+header {
+	align-items: center;
+	position: fixed;
+	top: 0px;
+	height: 4rem;
+	width: 100%;
+	z-index: 10;
+	background-color: #fff;
+}
+
+header img {
+	height: 2rem;
+	width: auto;
+	margin-left: 1.5rem;
+}
+
+nav {
+	text-align: right;
+	flex-grow: 1;
+	margin-right: 1.5rem;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 1rem;
+}
+
+nav a {
+	color: #4a4a4a;
+}
+
+
+/**********
+Banner
+**********/
+
+.banner {
+	padding:2rem 1.5rem;
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	background-color: #eaebec;
+}
+
+.banner .sixty {
+	max-width: 60%;
+}
+
+.banner .forty {
+	max-width: 40%;
+}
+
+.banner #img {
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+
+.sixty img {
+	max-width: 100%;
+}
+
+.banner #text {
+	width: 40%;
+	margin: auto 1.5rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .btn {
+	background-color: #4a4a4a;
+	color: #fff;
+	padding: 0.5rem 4rem;
+	justify-content: center;
+}
+
+/*
+.banner h3 {
+	text-align: left;
+}
+*/
+
+
+/**********
+About
+**********/
+
+.about {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+}
+
+.about #img {
+	justify-content: center;
+	align-items: center;
+	width: 60%;
+}
+
+/*reminder ^ above in banner 
+.sixty img {
+	max-width: 100%;
+}
+*/
+
+.about .sixty {
+	padding: 2rem 1.5rem;
+	
+}
+
+.about .forty {
+	max-width: 40%;
+	border-left: 1px solid #eaebec;
+}
+
+
+
+
+.about .bulletin {
+
+
+
+}
+
+
+.bulletin img {
+	max-width: 35%;
+	height: auto;
+	margin: 1rem;
+}
+
+.bulletin a {
+	color: #5691e5;
+}
+
+.bulletin .sidetext {
+	max-width: 65%;
+
+
+}
+
+
+
+/**********
+Start learning
+**********/
+
+#courses {
+	background-color: #eaebec;
+	margin: 2rem, 4.5rem;
+}
+
+#courses h2 {
+	text-align: center;
+	margin: 0;
+	padding: 2rem;
+}
+
+.items .flex-container {
+	justify-content: space-between;
+}
+
+
+.item { 
+	justify-content: center;
+	flex-basis: ?
+	background-color: #fff;
+}
+
+.item .text {
+	margin: 1rem 1rem 1.5rem 1rem;
+}
+
+.item p {
+	margin: 0.5rem 0rem;
+}
+
+
+
+
+/**********
+Thesis
+**********/
+
+
+
+
+
+/**********
+FOOTER
+**********/
+
+
+
+
+
