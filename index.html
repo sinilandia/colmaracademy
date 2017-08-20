@@ -11,6 +11,7 @@
 <body>
 <!-- Header -->
 <header class="flex-container">
+	<div class="desktop">
 	<img src="./resources/ic-logo.svg">
 	<span id="colmar">COLMAR</span>
 	<span id="academy"><font color="#9b9b9b">ACADEMY</font></span>
@@ -22,8 +23,21 @@
 			<li><a href="#">Sign in</a></li>
 		</ul>
 	</nav>
+	</div>
+
+<!-- Mobile header -->
+
+	<div class="mobile">
+		<a href="#"><img src="./resources/ic-logo.svg"></a>
+		<a href="#"><img src="./resources/ic-on-campus.svg"></a>
+		<a href="#"><img src="./resources/ic-online.svg"></a>
+		<a href="#"><img src="./resources/ic-login.svg"></a>	
+	</div>
 </header>
 
+
+
+	
 
 
 <!-- Main content -->
@@ -32,6 +46,7 @@
 	<!--Banner-->
 	<div class="flex-container">
 		<div class="banner">
+		<div class="mobile">
 			<div class="sixty" id="img">
 				<img src="./resources/banner.jpg">
 			</div>
@@ -42,6 +57,7 @@
 				<h3><a class="btn" href="#">Start here</a></h3>
 			</div>
 		</div>
+		</div>
 	</div>
 
 
@@ -49,13 +65,17 @@
 	<!-- About -->
 	<div class="flex-container">
 		<div class="about"> 
+			<div class="desktop">
 			<div class="sixty" id="img">
 				<img src="./resources/information-main.jpg">
 				<h2>It doesn't hurt to keep practicing</h2>
 				<p>"Curabitur vitae libero non ipsum ultricies rutrum. Mauris diam diam, rhoncus nec volutpat ac, auctor eu magna. Cras eu massa a mi aliquam bibendum. Etiam ac sapien elit. Vivamus est risus."</p>
 				<h6 id="name">Emanuel, Sr Strategist at Hiring.com</h6>
 			</div>
+			</div>
 
+
+			<div class="mobile">
 			<div class="forty" id="bulletins">
 				<div class="flex-container bulletin">
 					<div class="bulletin-img"><img src="./resources/information-orientation.jpg"></div>
@@ -77,12 +97,12 @@
 					<div class="bulletin-img"><img src="./resources/information-guest-lecture.jpg"></div>
 					<div class="sidetext">
 						<h3>Our guest lecture</h3>
-						<p>Join a keynote with Oliver Sack about music in medical treatment</p>
+						<p>Join a keynote with Oliver Sack </p>
 						<p><a href="#">Read more</a></p>
 					</div>
 			
 				</div>
-			
+			</div>
 			</div>
 		</div>	
 	</div>
@@ -151,6 +171,16 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="mobile">
+			<div class="course-btn"><h3>Software engineering</h3></div>
+			<div class="course-btn"><h3>Computer art</h3></div>
+			<div class="course-btn"><h3>Design</h3></div>
+			<div class="course-btn"><h3>Data</h3></div>
+			<div class="course-btn"><h3>Business</h3></div>
+			<div class="course-btn"><h3>Marketing</h3></div>
+		</div>
+
 	</div>
 	
 
@@ -162,14 +192,15 @@
 <!-- Thesis -->
 	
 	<div id="thesis">
+		<div class="desktop">
 		<h2>Thesis exhibit</h2>
-
 		<div class="about">
 			<div class="sixty" id="img">
 				<video width="320" height="240" controls>
   				<source src="./resources/thesis.mp4" type="video/mp4">
 				Your browser does not support the video tag.
 				</video>
+
 				<h3>Reimagine urban</h3>
 				<p>"Curabitur vitae libero non ipsum ultricies rutrum. Mauris diam diam, rhoncus nec volutpat ac, auctor eu magna. Cras eu massa a mi aliquam bibendum. Etiam ac sapien elit. Vivamus est risus."</p>
 			</div>
@@ -186,13 +217,27 @@
 				<div class="flex-container bulletin">
 					<div class="bulletin-img"><img src="./resources/thesis-now-and-then.jpg"></div>
 					<div class="sidetext">
-					<h3>Now and then</h3>
+					<h3>Now and then: Colmar Academy</h3>
 					<p>Research study about New York</p>
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div>
+		</div>	
+
+		<div class="mobile">
+			<h2>Thesis exhibit</h2>
+			<video width="320" height="240" controls>
+  			<source src="./resources/thesis.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+		</div>
+
 	</div>
+
+	
+
+
 </main> 
 
 <!-- Footer -->
