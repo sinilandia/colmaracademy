@@ -1,10 +1,9 @@
 /**************** 
 UNIVERSAL STYLES 
 ****************/
-/*** light grey #f3f5f5 ***/
-/*** dark grey #eaebec ***/
-/***
-button color #4a4a4a (same as font title color?)
+/*** light grey #f3f5f5
+dark grey #eaebec 
+button color #4a4a4a 
 button font color #fff
 academy font color #9b9b9b
 ***/
@@ -119,8 +118,6 @@ header #colmar {
 		width: 100%;
 		align-items: center;
 	}
-
-	
 }
 
 
@@ -337,7 +334,6 @@ About
 	.mobile .sidetext {
 		padding-top: 0;
 	}
-
 }
 
 
@@ -459,7 +455,7 @@ Thesis
 }
 
 .sixty video {
-	max-width: 100%;
+	width: 100%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -509,5 +505,3 @@ footer ul li {
 footer a {
 	color: #4a4a4a;
 }
-
-
